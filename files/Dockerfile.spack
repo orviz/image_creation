@@ -1,6 +1,6 @@
 FROM %BASE_IMG%
 
-LABEL org.opencontainers.image.source https://github.com/eflows4hpc/image_creation
+LABEL org.opencontainers.image.source https://github.com/orviz/image_creation
 
 COPY %APPDIR% /%APPDIR%
 COPY software-catalog /software-catalog

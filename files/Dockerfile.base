@@ -4,7 +4,7 @@
 #FROM spack/ubuntu-jammy:v0.19.2
 FROM spack/ubuntu-focal:v0.20.1
 
-LABEL org.opencontainers.image.source https://github.com/eflows4hpc/image_creation
+LABEL org.opencontainers.image.source https://github.com/orviz/image_creation
 
 RUN apt-get update && apt-get install -y openjdk-8-jdk python3-dev uuid-runtime libtool automake build-essential vim \
   zlib1g-dev pkgconf bzip2 ncurses-dev openssl cmake tar libreadline-dev uuid-dev sqlite3 libxml2-dev \
